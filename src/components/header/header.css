@@ -1,0 +1,46 @@
+.header{
+    background-color: darksalmon;
+    color: white;
+    display: flex;  
+    justify-content: center;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 60px 0px;
+}
+
+.headerList{
+    display: flex;
+    gap: 120px;
+}
+
+.headerListItem{
+    display: flex;  
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.headerTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.headerDesc{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+}
