@@ -26,9 +26,37 @@ function ModalComp (){
                     <Modal isOpen={modalIsOpen}>
                 
                         <button onClick={setModalIsOpenToFalse} >x</button>
-                        <div>Would you like to Register to start earning sweet rewards?</div>
-                        <button>Yes</button>
-                        <button>No</button>
+    
+                        <div>Register:</div>
+                        <div>
+                        <label>Email:</label>
+                        <input type="text" name="name" />
+                        
+                        </div>
+                        <span>
+                        <label>Name:</label>
+                        <input type="text" name="name" />
+                        <label>Phone:</label>
+                        <input type="text" name="name" />
+                        </span>
+                        <div>
+                        <label>Username:</label>
+                        <input type="text" name="name" />
+                        
+                        </div>
+
+                        <div>
+                        <label>Password:</label>
+                        <input type="password" name="name" />
+                        </div>
+
+                        <div>
+                        <label>Confirm Password:</label>
+                        <input type="password" name="name" />
+                        </div>
+
+                        <button>Register</button>
+                        
                     </Modal>
                 </div>
                 
