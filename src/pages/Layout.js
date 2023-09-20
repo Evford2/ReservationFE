@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './home/Header';
 import Navbar from './home/Navbar';
+import Reserve from './home/Reserve';
 
 class Layout extends Component {
     render() {
@@ -10,7 +11,7 @@ class Layout extends Component {
                 {this.props.children}
                 <Header/>
                 <Navbar/>
-                
+                <Reserve/>
             </div>
         )
     }
