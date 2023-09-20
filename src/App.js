@@ -3,13 +3,16 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from "./pages/home/Home";
+import Layout from "./pages/Layout"
 import Admin from "./pages/admin/Admin";
+import './style/Layout.scss'
+import './style/home.scss'
+import './style/index.scss'
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<Layout/>}/>
         <Route path="/admin" element={<Admin/>}/>
       </Routes>
 
