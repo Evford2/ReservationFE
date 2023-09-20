@@ -5,7 +5,7 @@ class Reserve extends Component {
         return(
             <div className='reserve'>
                 <p>Save Time by Skipping the Line</p>
-                    <form>
+                    <form className='reserveInfo'>
                         <label>Name:
                             <input type="text" name="name" />
                         </label>
