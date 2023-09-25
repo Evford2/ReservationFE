@@ -16,7 +16,8 @@ class Reserve extends Component {
                             <input type="number" name="guests" />
                         </label>
                     </form>
-               
+
+                <button className='reserveBtn'>Reserve</button>
         
 
             </div>
