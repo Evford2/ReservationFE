@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Header from '../../components/Header';
-import Navbar from '../../components/Navbar';
-import Reserve from '../../components/Reserve';
+import Header from '../components/Header';
+import Navbar from '../components/Navbar';
+import Reserve from '../components/Reserve';
 
 class HomeLayout extends Component {
     render() {

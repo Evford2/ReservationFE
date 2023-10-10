@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Header from '../../components/Header';
-import Navbar from '../../components/Navbar';
-class LocationsLayout extends Component {
+import Header from '../components/Header';
+import Navbar from '../components/Navbar';
+class About extends Component {
     render() {
         return(
             <div className='layout'>
@@ -15,4 +15,4 @@ class LocationsLayout extends Component {
     }
 }
 
-export default LocationsLayout
+export default About
