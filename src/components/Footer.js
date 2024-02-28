@@ -1,20 +1,23 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
-function Navbar() {
+function Footer() {
     const navigate = useNavigate();
     
-    return <nav className="nav">
-        <Link href="/" className="site-title">Ford Forest</Link>
-        <ul>
+    return <footer className="foot">
+        <div className='footerlinks'>
             <CustomLink href="/">Home</CustomLink>
             <CustomLink href="/about">About</CustomLink>
+        </div>
+        <div className='footerlinks'>
             <CustomLink href="/campsites">Campsites</CustomLink> 
             <CustomLink href="/renfest">RenFest</CustomLink>
+        </div>
+        <div className='footerlinks'>
             <CustomLink href="/rules">Rules</CustomLink>
             <CustomLink href="/login">Login/Signup</CustomLink>
-        </ul>
-    </nav>
+        </div>
+    </footer>
 }
 
 function CustomLink({ href, children, ...props}) {
@@ -30,4 +33,4 @@ function CustomLink({ href, children, ...props}) {
         
 }
 
-export default Navbar;
+export default Footer;

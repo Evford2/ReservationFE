@@ -1,18 +1,13 @@
-import React, { Component } from 'react';
-
-import Header from '../components/Header';
-import Navbar from '../components/Navbar';
-class About extends Component {
-    render() {
-        return(
-            <div className='layout'>
-                {this.props.children}
-                <Header/>
-                <Navbar/>
+export default function About(){
+    return <div>
+        <h1>How we started</h1>
+        <body>
+            <p>
                 
-            </div>
-        )
-    }
+            </p>
+        </body>
+        
+        
+        
+    </div>
 }
-
-export default About

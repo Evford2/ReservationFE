@@ -1,28 +1,34 @@
 import React, { Component } from 'react';
-
-class Reserve extends Component {
-    render() {
+import { useState } from 'react';
+function Reserve() {
+    
+        const [name, setName] = useState("John Doe")
+        const [email, setEmail] = useState("jdoe@email.com")
+        const [guests, setGuests] = useState("1")
+        const click = () => {
+            alert(name + email + guests)
+        }
         return(
             <div className='reserve'>
                 <p>Save Time by Skipping the Line</p>
                     <form className='reserveInfo'>
                         <label>Name:
-                            <input type="text" name="name" />
+                            <input value = {name} type="text" name="name" />
                         </label>
                         <label>Email:
-                            <input type="text" name="email" />
+                            <input value = {email} type="text" name="email" />
                         </label>
                         <label>Guests:
-                            <input type="number" name="guests" />
+                            <input value = {guests} type="number" name="guests" />
                         </label>
                     </form>
 
-                <button className='reserveBtn'>Reserve</button>
+                <button onClick = {click} className='reserveBtn'>Reserve</button>
         
 
             </div>
         )
-    }
+    
 }
 
 export default Reserve;
