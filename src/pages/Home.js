@@ -1,3 +1,4 @@
+import React from 'react';
 import placeholder from './placeholder-400x400.png';
 import placeholder2 from './200pximg.jpg';
 export default function Home() {

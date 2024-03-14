@@ -1,3 +1,4 @@
+import React from "react"
 export default function About(){
     return <div>
         <h1>How we started</h1>
@@ -6,8 +7,6 @@ export default function About(){
                 
             </p>
         </body>
-        
-        
         
     </div>
 }

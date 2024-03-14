@@ -13,11 +13,15 @@ import Footer from  './components/Footer.js';
 import Campsites from './pages/Campsites.js';
 import RenFest from './pages/RenFest.js';
 import Rules from './pages/Rules.js';
-
+import Modal from './components/Modal.js';
+import Header from './components/Header.js';
+import Reserve from './pages/Reserve.js';
 function App() {
 
   return (
     <>
+      <Header />
+      
       <Navbar />
       <div className='container'>
         <Routes>
@@ -55,6 +59,12 @@ function App() {
               exact
               path="/admin"
               element={<Admin />}
+            />
+
+            <Route
+              exact
+              path="/reserve"
+              element={<Reserve />}
             />
         </Routes>
       </div>

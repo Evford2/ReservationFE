@@ -17,6 +17,7 @@ body {
 }
 
 .site-title{
+    text-decoration: none;
     font-size: 3rem;
 }
 
@@ -46,13 +47,18 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     column-count: 3;
+    padding: 0rem 35rem;
 }
 
 .footerlinks{
-    text-decoration: none;
     font-size: 12px;
+    
+}
+.footerlink{
+    text-decoration: none;
+    color: white;
 }
 .header{
     text-align: center;
@@ -67,9 +73,55 @@ body {
     padding: 40px;
 }
 
+.siteContainer{
+    background-color: #4da33b;
+    padding: 20px;
+    gap: 80px;
+    display: flex;
+    
+    justify-content: center;
+}
+
 .btnContainer{
     padding: 20px;
     gap: 80px;
     display: flex;
     justify-content: center;
+}
+
+.siteMap{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pageheader{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    background-color: #cdf0c6;
+}
+
+.loginlink{
+    text-decoration: none;
+}
+
+.reserve-btn{
+    padding: .75rem 2.5rem;
+    margin: 1rem;
+    border: 2px solid rgb(44, 42, 42);
+    color: rgb(44, 42, 42);
+    background-color: rgb(182, 197, 192);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.reserve-container{
+    display: flex;
+    justify-content: center;
+    background-color: #07380a;
 }

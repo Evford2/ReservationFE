@@ -1,15 +1,29 @@
 import React, { Component } from 'react';
-
-class Header extends Component {
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import Modal from './Modal';
+class Header extends Component { 
     render() {
         return(
-            <div className='header'>
-
-                <img src='http://via.placeholder.com/50x50' alt='placeholderimg'/>
+        <>
+            <div className='pageheader'>
+                <Link href="/" className="site-title">Ford Forest</Link>
+                <Modal />
 
             </div>
-        )
+           </> 
+        );
     }
 }
+function CustomLink({ href, children, ...props}) {
+    const path = window.location.pathname
 
+    return(
+    <li className={path === href ? "active" : ""}>
+        <a href = {href} {...props}>
+            {children}
+        </a>
+    </li>
+    )
+        
+}
 export default Header;

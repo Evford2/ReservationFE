@@ -6,16 +6,16 @@ function Footer() {
     
     return <footer className="foot">
         <div className='footerlinks'>
-            <CustomLink href="/">Home</CustomLink>
-            <CustomLink href="/about">About</CustomLink>
+            <CustomLink href="/" className="footerlink">Home</CustomLink>
+            <CustomLink href="/about" className="footerlink">About</CustomLink>
         </div>
         <div className='footerlinks'>
-            <CustomLink href="/campsites">Campsites</CustomLink> 
-            <CustomLink href="/renfest">RenFest</CustomLink>
+            <CustomLink href="/campsites" className="footerlink">Campsites</CustomLink> 
+            <CustomLink href="/renfest" className="footerlink">RenFest</CustomLink>
         </div>
         <div className='footerlinks'>
-            <CustomLink href="/rules">Rules</CustomLink>
-            <CustomLink href="/login">Login/Signup</CustomLink>
+            <CustomLink href="/rules" className="footerlink">Rules</CustomLink>
+            <CustomLink href="/login" className="footerlink">Login/Signup</CustomLink>
         </div>
     </footer>
 }

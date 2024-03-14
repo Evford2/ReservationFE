@@ -1,0 +1,83 @@
+[
+    {
+       "name":"Primative Campsite 3",
+       "siteid":13,
+       "maxcount":6,
+       "price":20,
+       "imageurls":[],
+       "currentbookings":[],
+       "description":"This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility."
+    },
+    {
+       "name":"Primative Campsite 2",
+       "siteid":12,
+       "maxcount":6,
+       "price":20,
+       "imageurls":[],
+       "currentbookings":[],
+       "description":"This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility."
+    },
+    {
+       "name":"Primative Campsite 1",
+       "siteid":11,
+       "maxcount":6,
+       "price":20,
+       "imageurls":[],
+       "currentbookings":[],
+       "description":"This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility."
+    },
+    {
+       "name":"Tent Campsite 3",
+       "siteid":23,
+       "maxcount":8,
+       "price":50,
+       "imageurls":[],
+       "currentbookings":[],
+       "description":"This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility."
+    },
+    {
+       "name":"Tent Campsite 2",
+       "siteid":22,
+       "maxcount":8,
+       "price":50,
+       "imageurls":[],
+       "currentbookings":[],
+       "description":"This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility."
+    },
+    {
+       "name":"Tent Campsite 1",
+       "siteid":21,
+       "maxcount":8,
+       "price":50,
+       "imageurls":[],
+       "currentbookings":[],
+       "description":"This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility."
+    },
+    {
+       "name":"Cabin Site 1",
+       "siteid":31,
+       "maxcount":8,
+       "price":100,
+       "imageurls":[],
+       "currentbookings":[],
+       "description":"This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility."
+    },
+    {
+       "name":"Cabin Site 2",
+       "siteid":32,
+       "maxcount":8,
+       "price":100,
+       "imageurls":[],
+       "currentbookings":[],
+       "description":"This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility."
+    },
+    {
+       "name":"Cabin Site 3",
+       "siteid":33,
+       "maxcount":8,
+       "price":100,
+       "imageurls":[],
+       "currentbookings":[],
+       "description":"This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility."
+    }
+ ]
