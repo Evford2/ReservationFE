@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "65f24246c7c5b9ba13ababc1"
+  },
+  "name": "Primative Campsite 3",
+  "siteid": 13,
+  "maxcount": 6,
+  "price": 20,
+  "imageurls": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvzjkWQ9Wl8zZWKRRq0KTakTqn72yN5ukeg&usqp=CAU",
+    "https://www.pilotrock.com/userdocs/images/FS7grass.jpg"
+  ],
+  "currentbookings": [],
+  "description": "This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility.",
+  "sitetype": "primitive"
+},
+{
+  "_id": {
+    "$oid": "65f24246c7c5b9ba13ababc6"
+  },
+  "name": "Tent Campsite 1",
+  "siteid": 21,
+  "maxcount": 8,
+  "price": 50,
+  "imageurls": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvzjkWQ9Wl8zZWKRRq0KTakTqn72yN5ukeg&usqp=CAU",
+    "https://www.pilotrock.com/userdocs/images/FS7grass.jpg"
+  ],
+  "currentbookings": [],
+  "description": "This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility.",
+  "sitetype": "tent"
+},
+{
+  "_id": {
+    "$oid": "65f24246c7c5b9ba13ababc3"
+  },
+  "name": "Primative Campsite 1",
+  "siteid": 11,
+  "maxcount": 6,
+  "price": 20,
+  "imageurls": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvzjkWQ9Wl8zZWKRRq0KTakTqn72yN5ukeg&usqp=CAU",
+    "https://www.pilotrock.com/userdocs/images/FS7grass.jpg"
+  ],
+  "currentbookings": [],
+  "description": "This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility.",
+  "sitetype": "primitive"
+},
+{
+  "_id": {
+    "$oid": "65f24246c7c5b9ba13ababc4"
+  },
+  "name": "Tent Campsite 3",
+  "siteid": 23,
+  "maxcount": 8,
+  "price": 50,
+  "imageurls": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvzjkWQ9Wl8zZWKRRq0KTakTqn72yN5ukeg&usqp=CAU",
+    "https://www.pilotrock.com/userdocs/images/FS7grass.jpg"
+  ],
+  "currentbookings": [],
+  "description": "This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility.",
+  "sitetype": "tent"
+},
+{
+  "_id": {
+    "$oid": "65f24246c7c5b9ba13ababc5"
+  },
+  "name": "Tent Campsite 2",
+  "siteid": 22,
+  "maxcount": 8,
+  "price": 50,
+  "imageurls": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvzjkWQ9Wl8zZWKRRq0KTakTqn72yN5ukeg&usqp=CAU",
+    "https://www.pilotrock.com/userdocs/images/FS7grass.jpg"
+  ],
+  "currentbookings": [],
+  "description": "This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility.",
+  "sitetype": "tent"
+},
+{
+  "_id": {
+    "$oid": "65f24246c7c5b9ba13ababc8"
+  },
+  "name": "Cabin Site 2",
+  "siteid": 32,
+  "maxcount": 8,
+  "price": 100,
+  "imageurls": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvzjkWQ9Wl8zZWKRRq0KTakTqn72yN5ukeg&usqp=CAU",
+    "https://www.pilotrock.com/userdocs/images/FS7grass.jpg"
+  ],
+  "currentbookings": [],
+  "description": "This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility.",
+  "sitetype": "cabin"
+},
+{
+  "_id": {
+    "$oid": "65f24246c7c5b9ba13ababc2"
+  },
+  "name": "Primative Campsite 2",
+  "siteid": 12,
+  "maxcount": 6,
+  "price": 20,
+  "imageurls": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvzjkWQ9Wl8zZWKRRq0KTakTqn72yN5ukeg&usqp=CAU",
+    "https://www.pilotrock.com/userdocs/images/FS7grass.jpg"
+  ],
+  "currentbookings": [],
+  "description": "This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility.",
+  "sitetype": "primitive"
+},
+{
+  "_id": {
+    "$oid": "65f24246c7c5b9ba13ababc7"
+  },
+  "name": "Cabin Site 1",
+  "siteid": 31,
+  "maxcount": 8,
+  "price": 100,
+  "imageurls": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvzjkWQ9Wl8zZWKRRq0KTakTqn72yN5ukeg&usqp=CAU",
+    "https://www.pilotrock.com/userdocs/images/FS7grass.jpg"
+  ],
+  "currentbookings": [],
+  "description": "This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility.",
+  "sitetype": "cabin"
+},
+{
+  "_id": {
+    "$oid": "65f24246c7c5b9ba13ababc9"
+  },
+  "name": "Cabin Site 3",
+  "siteid": 33,
+  "maxcount": 8,
+  "price": 100,
+  "imageurls": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvzjkWQ9Wl8zZWKRRq0KTakTqn72yN5ukeg&usqp=CAU",
+    "https://www.pilotrock.com/userdocs/images/FS7grass.jpg"
+  ],
+  "currentbookings": [],
+  "description": "This site is conveniently located near the bath house. Shaded by tall pine trees, your group will surely enjoy the tranquility.",
+  "sitetype": "cabin"
+}]

@@ -125,3 +125,29 @@ body {
     justify-content: center;
     background-color: #07380a;
 }
+
+.small-img {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.site-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.reservepage-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    padding-top: 100px;
+    margin-left: 40px;
+}

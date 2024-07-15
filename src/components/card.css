@@ -11,9 +11,7 @@
   border-width: 2px;
   display: flex;
   justify-content: center;
-  cursor: pointer;
   background-color: rgb(12, 68, 12);
-  align-items: center;
 }
 
 .card-body {
@@ -26,4 +24,14 @@
   color: white;
   text-align: center;
   padding-top: 15px;
+}
+
+.card-reserve {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.reserve-btn-container {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=card.css.map */

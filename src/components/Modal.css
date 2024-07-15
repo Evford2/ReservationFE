@@ -35,10 +35,14 @@ body.active-modal {
     transform: translate(-50%, -50%);
     line-height: 1.4;
     background: #f1f1f1;
-    padding: 14px 28px;
-    border-radius: 3px;
-    max-width: 600px;
-    min-width: 300px;
+    padding: 28px 36px;
+    border-radius: 16px;
+    border-color: green;
+    border-style: solid;
+    border-width: 5px;
+    min-height: 375px;
+    min-width: 400px;
+    
 }
 
 .close-modal {
@@ -50,4 +54,18 @@ body.active-modal {
 
 .modal-header{
     text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.register-input{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.btn-container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
 }

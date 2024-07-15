@@ -29,7 +29,12 @@ const siteSchema = mongoose.Schema({
     description : {
         type: String,
         required: true
-    }
+    },
+
+    sitetype : {
+        type: String , 
+        required: true
+    },
 
 } , {
     timestamps : true,

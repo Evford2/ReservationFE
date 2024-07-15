@@ -4,7 +4,15 @@ const dbConfig = require('./db')
 const siteRoute = require('./routes/siteRouter')
 
 app.use('/api/sites' , siteRoute)
+app.use(express.json());
 
+app.get("/status", (req, res) => {
+    const status = {
+        "status" : "running"
+    };
+
+    res.send(status);
+});
 
 const port = process.env.PORT || 5000;
 
