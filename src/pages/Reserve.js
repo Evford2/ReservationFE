@@ -12,32 +12,28 @@ const[loading , setloading] = useState()
 const[error , seterror] = useState()
 
 const [PrimisChecked, PrimsetIsChecked] = useState(true)
+const [TentisChecked, TentsetIsChecked] = useState(true)
+const [CabinisChecked, CabinsetIsChecked] = useState(true)
+
 const PrimcheckHandler = () => {
     PrimsetIsChecked(!PrimisChecked)
     console.log(!PrimisChecked)
 }
-const [TentisChecked, TentsetIsChecked] = useState(true)
+
 const TentcheckHandler = () => {
     TentsetIsChecked(!TentisChecked)
     console.log(!TentisChecked)
-        
 }
-const [CabinisChecked, CabinsetIsChecked] = useState(true)
+
 const CabincheckHandler = () => {
     CabinsetIsChecked(!CabinisChecked)
     console.log(!CabinisChecked)
-        
 }
 
     useEffect(() => {
         (async () => {
             try {
-                
-                const params = {
-                    primitive: PrimisChecked,
-                    tent: TentisChecked,
-                    cabin: CabinisChecked
-                }
+
                 setloading(true)
                 const data = (await axios.get('/api/sites/reserve', {params: 
                     {
@@ -48,6 +44,7 @@ const CabincheckHandler = () => {
                 })).data
                 setsites(data)
                 setloading(false)
+
             } catch (error) {
 
                 seterror(true)
@@ -59,7 +56,7 @@ const CabincheckHandler = () => {
         })();
         
 
-    }, [PrimisChecked, TentisChecked, CabinisChecked])
+    }, [PrimisChecked, TentisChecked, CabinisChecked]) //runs useEffect each time a box is checked
 
     return (
     
@@ -79,8 +76,7 @@ const CabincheckHandler = () => {
                 <div className="filter-tent">
                     <input type="checkbox" id="Tent" checked={TentisChecked} onChange={TentcheckHandler}/>
                     <label For="Tent">Tent</label>
-                </div>
-                    
+                </div>   
             </div>
             
             <div className="campsite-container">
