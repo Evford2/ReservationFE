@@ -1,6 +1,7 @@
 {
   "name": "booking",
   "version": "0.1.0",
+  "homepage": "https://evford2.github.io/ReservationFE",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -22,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   
-  "homepage": "https://evford2.github.io/reservationfe",
+  
   "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
