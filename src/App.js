@@ -27,7 +27,7 @@ function App() {
         <Routes>
             <Route
               exact
-              path="/ReservationFE"
+              path="/"
               element={<Home />}
             />
             
