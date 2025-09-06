@@ -35,7 +35,7 @@ function App() {
             
             <Route
               exact
-              path="/about"
+              path="about"
               element={<About />}
             />
 
