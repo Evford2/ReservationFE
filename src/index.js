@@ -6,7 +6,7 @@ import "./style.css"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/ReservationFE">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
