@@ -1,7 +1,7 @@
 {
   "name": "booking",
   "version": "0.1.0",
-  "homepage": "https://evford2.github.io/ReservationFE/",
+  "homepage": "https://evford2.github.io/ReservationFE",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

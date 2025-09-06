@@ -25,7 +25,7 @@ function App() {
       
       <Navbar />
       <div className='container'>
-      <HashRouter>
+      <HashRouter basename='/ReservationFE'>
         <Routes>
             <Route
               exact
