@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  HashRouter,
   BrowserRouter,
   Routes,
   Route,
@@ -24,10 +25,11 @@ function App() {
       
       <Navbar />
       <div className='container'>
+      <HashRouter>
         <Routes>
             <Route
               exact
-              path=""
+              path="/"
               element={<Home />}
             />
             
@@ -67,6 +69,7 @@ function App() {
               element={<Reserve />}
             />
         </Routes>
+        </HashRouter>
       </div>
       <Footer />
     </>
