@@ -24,7 +24,7 @@ function App() {
       
       <Navbar />
       <div className='container'>
-      
+        <HashRouter>
         <Routes>
             <Route
               exact
@@ -68,7 +68,7 @@ function App() {
               element={<Reserve />}
             />
         </Routes>
-        
+        </HashRouter>
       </div>
       <Footer />
     </>
