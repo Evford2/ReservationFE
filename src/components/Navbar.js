@@ -7,11 +7,11 @@ function Navbar() {
     return <nav className="nav">
        
         <ul>
-            <CustomLink href="/">Home</CustomLink>
-            <CustomLink href="/about">About</CustomLink>
-            <CustomLink href="/campsites">Campsites</CustomLink> 
-            <CustomLink href="/renfest">RenFest</CustomLink>
-            <CustomLink href="/rules">Rules</CustomLink>
+            <CustomLink href="/#/">Home</CustomLink>
+            <CustomLink href="/#/about">About</CustomLink>
+            <CustomLink href="/#/campsites">Campsites</CustomLink> 
+            <CustomLink href="/#/renfest">RenFest</CustomLink>
+            <CustomLink href="/#/rules">Rules</CustomLink>
             
         </ul>
     </nav>
