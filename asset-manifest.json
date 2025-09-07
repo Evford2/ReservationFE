@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReservationFE/static/css/main.c1810e35.css",
-    "main.js": "/ReservationFE/static/js/main.7a1ba47d.js",
+    "main.js": "/ReservationFE/static/js/main.4a3e0d30.js",
     "static/media/sitemap.jpg": "/ReservationFE/static/media/sitemap.020f72173728609a9fd2.jpg",
     "index.html": "/ReservationFE/index.html",
     "main.c1810e35.css.map": "/ReservationFE/static/css/main.c1810e35.css.map",
-    "main.7a1ba47d.js.map": "/ReservationFE/static/js/main.7a1ba47d.js.map"
+    "main.4a3e0d30.js.map": "/ReservationFE/static/js/main.4a3e0d30.js.map"
   },
   "entrypoints": [
     "static/css/main.c1810e35.css",
-    "static/js/main.7a1ba47d.js"
+    "static/js/main.4a3e0d30.js"
   ]
 }
