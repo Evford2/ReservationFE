@@ -1,23 +1,14 @@
 {
   "files": {
-    "main.css": "/ReservationFE/static/css/main.3e6e9483.chunk.css",
-    "main.js": "/ReservationFE/static/js/main.6ea574ce.chunk.js",
-    "main.js.map": "/ReservationFE/static/js/main.6ea574ce.chunk.js.map",
-    "runtime-main.js": "/ReservationFE/static/js/runtime-main.d75f261e.js",
-    "runtime-main.js.map": "/ReservationFE/static/js/runtime-main.d75f261e.js.map",
-    "static/js/2.95171cde.chunk.js": "/ReservationFE/static/js/2.95171cde.chunk.js",
-    "static/js/2.95171cde.chunk.js.map": "/ReservationFE/static/js/2.95171cde.chunk.js.map",
+    "main.css": "/ReservationFE/static/css/main.c1810e35.css",
+    "main.js": "/ReservationFE/static/js/main.7a1ba47d.js",
+    "static/media/sitemap.jpg": "/ReservationFE/static/media/sitemap.020f72173728609a9fd2.jpg",
     "index.html": "/ReservationFE/index.html",
-    "precache-manifest.cd5082d49bde8a723758d8d1ae3c39b0.js": "/ReservationFE/precache-manifest.cd5082d49bde8a723758d8d1ae3c39b0.js",
-    "service-worker.js": "/ReservationFE/service-worker.js",
-    "static/css/main.3e6e9483.chunk.css.map": "/ReservationFE/static/css/main.3e6e9483.chunk.css.map",
-    "static/js/2.95171cde.chunk.js.LICENSE.txt": "/ReservationFE/static/js/2.95171cde.chunk.js.LICENSE.txt",
-    "static/media/sitemap.jpg": "/ReservationFE/static/media/sitemap.31032358.jpg"
+    "main.c1810e35.css.map": "/ReservationFE/static/css/main.c1810e35.css.map",
+    "main.7a1ba47d.js.map": "/ReservationFE/static/js/main.7a1ba47d.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d75f261e.js",
-    "static/js/2.95171cde.chunk.js",
-    "static/css/main.3e6e9483.chunk.css",
-    "static/js/main.6ea574ce.chunk.js"
+    "static/css/main.c1810e35.css",
+    "static/js/main.7a1ba47d.js"
   ]
 }
