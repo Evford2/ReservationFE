@@ -1,23 +1,27 @@
 import React from 'react'
-import placeholder2 from './200pximg.jpg'
-import sitemap from './sitemap.jpg'
+import primsite from './Images/primsite.jpg'
+import sitemap from './Images/sitemap.jpg'
 import Card from '../components/Card'
+import cabin1 from './Images/cabin1.jpg'
+import camper from './Images/camper1.jpg'
 import { useNavigate } from 'react-router-dom'
+import ImageMagnifier from './ImageMagnifier'
+
 export default function Campsites(){
     const navigate = useNavigate();
     return <div>
         <h1></h1>
             <body>
                 <div className="siteContainer">
-                    <Card img={placeholder2} title="Primative" />
-                    <Card img={placeholder2} title="Cabin" />
-                    <Card img={placeholder2} title="Camper" />
+                    <Card img={primsite} title="Primative" />
+                    <Card img={cabin1} title="Cabin" />
+                    <Card img={camper} title="Camper" />
                 </div>
                 <div className="reserve-container">
-                    <button onClick={() => navigate("/reserve")} className="reserve-btn">Reserve</button>
+                    <button onClick={() => navigate("/reserve")} className="reserve-btn">Click Here to Reserve!</button>
                 </div>
                 <div className="siteMap">
-                    <img src={sitemap} alt="sitemap"></img>
+                    <img src={sitemap} alt="" />
                 </div>
 
 

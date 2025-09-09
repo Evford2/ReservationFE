@@ -140,13 +140,123 @@ body {
 
 .reservepage-container {
   display: flex;
+  justify-content: center;
   flex-direction: row;
+  background-color: #cdf0c6;
 }
 
 .filter-container {
   display: flex;
   flex-direction: column;
-  width: 25rem;
+  width: 35rem;
   padding-top: 100px;
   margin-left: 40px;
+  background-color: #185c0b;
+}
+
+.campsite-container {
+  background-color: #d6e0d4;
+}
+
+.filtertype {
+  height: 50px;
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: #cdf0c6;
+  margin: 1px;
+  background-color: #cdf0c6;
+}
+
+.checkcontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #b89191;
+}
+
+/* On mouse-over, add a grey background color */
+.checkcontainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkcontainer input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkcontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkcontainer .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.magnifier-img {
+  padding-top: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 35rem;
+  height: auto;
+}
+
+.site-body {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+h1 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
 }/*# sourceMappingURL=style.css.map */

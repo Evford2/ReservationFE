@@ -10,6 +10,9 @@ function Site({site}) {
             </div>
             <div className="site-body">
                 <h1>{site.name}</h1>
+                <p>{site.description}</p>
+                <p>${site.price}</p>
+                <button>Reserve</button>
             </div>
         </div>
 

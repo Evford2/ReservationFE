@@ -1,0 +1,17 @@
+.img-magnifier-container {
+  position: relative;
+}
+
+.magnifier-img {
+  padding-top: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 35rem;
+  height: auto;
+}
+
+.magnifier-image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #fff;
+}/*# sourceMappingURL=ImageMagnifier.css.map */

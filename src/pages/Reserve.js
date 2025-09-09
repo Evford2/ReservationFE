@@ -2,7 +2,9 @@ import React, { useState , useEffect } from "react";
 import axios from "axios";
 import Card from "../components/Card";
 import Site from "../components/Site";
-import placeholder2 from './200pximg.jpg'
+import placeholder2 from './Images/200pximg.jpg'
+import ImageMagnifier from "./ImageMagnifier";
+import sitemap from "./Images/sitemap.jpg"
 
 
 export default function Reserve(){
@@ -63,20 +65,33 @@ const CabincheckHandler = () => {
             
         <div className='reservepage-container'>
             <div className="filter-container">
-                <div className="filter-prim">
-                    <input type="checkbox" id="Primitive" checked={PrimisChecked} onChange={PrimcheckHandler}/>
-                    <label For="Primitive">Primitive</label>
+                
+                <div className="filtertype">
+                    <label class="checkcontainer">Primitive
+                        <input type="checkbox" id="Primitive" checked={PrimisChecked} onChange={PrimcheckHandler}/>
+                        <span className="checkmark"></span>        
+                    </label>
+                    
                 </div>
 
-                <div className="filter-cabin">
-                    <input type="checkbox" id="Cabin" checked={CabinisChecked} onChange={CabincheckHandler}/>
-                    <label For="Cabin">Cabin</label>
+                <div className="filtertype">
+                    <label class="checkcontainer">Cabin
+                        <input type="checkbox" id="Cabin" checked={CabinisChecked} onChange={CabincheckHandler}/>
+                        <span className="checkmark"></span>        
+                    </label>
                 </div>
 
-                <div className="filter-tent">
-                    <input type="checkbox" id="Tent" checked={TentisChecked} onChange={TentcheckHandler}/>
-                    <label For="Tent">Tent</label>
-                </div>   
+                <div className="filtertype">
+                    <label class="checkcontainer">Tent
+                        <input type="checkbox" id="Tent" checked={TentisChecked} onChange={TentcheckHandler}/>
+                        <span className="checkmark"></span>    
+                    </label>
+                </div>  
+                <div className="siteMap">
+                    <ImageMagnifier src={sitemap} alt="" />
+                </div>
+                
+                
             </div>
             
             <div className="campsite-container">
