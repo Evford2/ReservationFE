@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9f8a2de0ead09db867cf3a5818a66df",
+    "revision": "589388317dbf10996ae2b2c5c02cec7c",
     "url": "/ReservationFE/index.html"
   },
   {
-    "revision": "a1a865ffc8a7d6dbc139",
+    "revision": "ddade23f9beaef6539bc",
     "url": "/ReservationFE/static/css/main.9b21b6da.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReservationFE/static/js/2.38cd8eb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1a865ffc8a7d6dbc139",
-    "url": "/ReservationFE/static/js/main.1a20ac1a.chunk.js"
+    "revision": "ddade23f9beaef6539bc",
+    "url": "/ReservationFE/static/js/main.3c60f833.chunk.js"
   },
   {
     "revision": "8665d59ad02b62553776",
