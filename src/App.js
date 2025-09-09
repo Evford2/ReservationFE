@@ -35,7 +35,7 @@ function App() {
             
             <Route
               exact
-              path="/ReservationFE/about"
+              path="about"
               element={<About />}
             />
 
@@ -59,7 +59,7 @@ function App() {
 
             <Route
               exact
-              path="admin"
+              path="/admin"
               element={<Admin />}
             />
 
