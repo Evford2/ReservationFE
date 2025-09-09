@@ -1,14 +1,29 @@
 {
   "files": {
-    "main.css": "/ReservationFE/static/css/main.c1810e35.css",
-    "main.js": "/ReservationFE/static/js/main.4a3e0d30.js",
-    "static/media/sitemap.jpg": "/ReservationFE/static/media/sitemap.020f72173728609a9fd2.jpg",
+    "main.css": "/ReservationFE/static/css/main.9b21b6da.chunk.css",
+    "main.js": "/ReservationFE/static/js/main.1830d96d.chunk.js",
+    "main.js.map": "/ReservationFE/static/js/main.1830d96d.chunk.js.map",
+    "runtime-main.js": "/ReservationFE/static/js/runtime-main.d75f261e.js",
+    "runtime-main.js.map": "/ReservationFE/static/js/runtime-main.d75f261e.js.map",
+    "static/js/2.38cd8eb9.chunk.js": "/ReservationFE/static/js/2.38cd8eb9.chunk.js",
+    "static/js/2.38cd8eb9.chunk.js.map": "/ReservationFE/static/js/2.38cd8eb9.chunk.js.map",
     "index.html": "/ReservationFE/index.html",
-    "main.c1810e35.css.map": "/ReservationFE/static/css/main.c1810e35.css.map",
-    "main.4a3e0d30.js.map": "/ReservationFE/static/js/main.4a3e0d30.js.map"
+    "precache-manifest.52a07ae1fdca4efd4ff5270c530ccc6b.js": "/ReservationFE/precache-manifest.52a07ae1fdca4efd4ff5270c530ccc6b.js",
+    "service-worker.js": "/ReservationFE/service-worker.js",
+    "static/css/main.9b21b6da.chunk.css.map": "/ReservationFE/static/css/main.9b21b6da.chunk.css.map",
+    "static/js/2.38cd8eb9.chunk.js.LICENSE.txt": "/ReservationFE/static/js/2.38cd8eb9.chunk.js.LICENSE.txt",
+    "static/media/cabin1.jpg": "/ReservationFE/static/media/cabin1.296293bb.jpg",
+    "static/media/camper1.jpg": "/ReservationFE/static/media/camper1.9e9aee63.jpg",
+    "static/media/camping.jpg": "/ReservationFE/static/media/camping.9e878337.jpg",
+    "static/media/forest.jpg": "/ReservationFE/static/media/forest.17fffe00.jpg",
+    "static/media/primsite.jpg": "/ReservationFE/static/media/primsite.cc5d843a.jpg",
+    "static/media/renfest.jpg": "/ReservationFE/static/media/renfest.31c560dc.jpg",
+    "static/media/sitemap.jpg": "/ReservationFE/static/media/sitemap.31032358.jpg"
   },
   "entrypoints": [
-    "static/css/main.c1810e35.css",
-    "static/js/main.4a3e0d30.js"
+    "static/js/runtime-main.d75f261e.js",
+    "static/js/2.38cd8eb9.chunk.js",
+    "static/css/main.9b21b6da.chunk.css",
+    "static/js/main.1830d96d.chunk.js"
   ]
 }
