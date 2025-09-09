@@ -12,6 +12,7 @@ function Site({site}) {
                 <h1>{site.name}</h1>
                 <p>{site.description}</p>
                 <p>${site.price}</p>
+                <p>Sleeps: ${site.maxcount}</p>
                 <button>Reserve</button>
             </div>
         </div>
