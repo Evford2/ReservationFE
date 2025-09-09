@@ -5,6 +5,7 @@ const Site = require("../models/site")
 const siteModel = require("../models/site")
 
 router.get("/reserve", async(req, res) => {
+    
     try{
         let types = []
         if(req.query.primitive == "true") {
@@ -18,6 +19,7 @@ router.get("/reserve", async(req, res) => {
         }
         console.log(types)
         const sites = await Site.find({"sitetype" : {"$in" : types}}); 
+        res.setHeader('Access-Control-Allow-Origin', 'https://evford2.github.io')
         res.send(sites)
     } catch (error) {
         return res.status(400).json({ message: error});
