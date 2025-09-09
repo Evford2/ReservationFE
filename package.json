@@ -49,7 +49,7 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "proxy": "https://reservationfe.onrender.com:5000",
+  "proxy": "https://reservationfe.onrender.com/api/sites/reserve",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }

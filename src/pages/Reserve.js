@@ -37,7 +37,12 @@ const CabincheckHandler = () => {
             try {
 
                 setloading(true)
-                const data = (await axios.get('/api/sites/reserve', {params: 
+                    const api = axios.create({
+                        baseURL: 'https://reservationfe.onrender.com/api/sites/reserve', // Replace with your actual Render URL
+                    });
+
+
+                const data = (await api.get('  /api/sites/reserve', {params: 
                     {
                         primitive: PrimisChecked,
                         tent: TentisChecked,
