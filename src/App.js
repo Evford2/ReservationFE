@@ -41,25 +41,25 @@ function App() {
 
             <Route
               exact
-              path="/ReservationFE/campsites"
+              path="/campsites"
               element={<Campsites />}
             />
 
             <Route
               exact
-              path="/ReservationFE/renfest"
+              path="/renfest"
               element={<RenFest />}
             />
 
             <Route
               exact
-              path="/ReservationFE/rules"
+              path="/rules"
               element={<Rules />}
             />
 
             <Route
               exact
-              path="/ReservationFE/admin"
+              path="admin"
               element={<Admin />}
             />
 
