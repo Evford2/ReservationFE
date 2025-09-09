@@ -45,3 +45,4 @@ const siteSchema = mongoose.Schema({
 
 const siteModel = mongoose.model('sites' , siteSchema)
 module.exports = siteModel
+
