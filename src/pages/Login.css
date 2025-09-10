@@ -13,6 +13,8 @@
   border-color: rgb(100, 116, 139);
   background-color: rgb(255, 255, 255);
   padding-top: 1.25rem;
+  width: 10rem;
+  height: 15rem;
 }
 
 .emailform {
