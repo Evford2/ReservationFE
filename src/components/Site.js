@@ -1,6 +1,5 @@
 import React from "react";
 import "./site.css";
-import reservemodal from "./reservemodal";
 function Site({site}) {
 
 
@@ -14,7 +13,7 @@ function Site({site}) {
                 <p>{site.description}</p>
                 <p>${site.price}</p>
                 
-                <reservemodal/>
+                <button>Reserve</button>
             </div>
         </div>
 
