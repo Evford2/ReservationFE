@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef, useState, useEffect } from "react";
 import { Form, Button } from "react-bootstrap";
-import "./Login.css";
+import "./Register.css";
 
 export default function Login(){
     const userRef= useRef();
@@ -25,7 +25,16 @@ export default function Login(){
         <Form className="loginform">
 
             <h1 className="loginheader">Log in</h1>
+            <Form.Group className="nameform" controlId="formEmail">
 
+                <Form.Label className="mb-3">First:</Form.Label>
+                <Form.Control className="firstname" type="text" placeholder="Enter email" />
+
+                <Form.Label className="mb-3">Last:</Form.Label>
+                <Form.Control className="lastname" type="text" placeholder="Password" />
+
+                
+            </Form.Group>
             <Form.Group className="emailform" controlId="formEmail">
 
                 <Form.Label className="mb-3">Email address</Form.Label>
@@ -34,21 +43,17 @@ export default function Login(){
                 <Form.Label className="mb-3">Password</Form.Label>
                 <Form.Control className="password" type="password" placeholder="Password" />
 
+                <Form.Label className="mb-3">Confirm Password</Form.Label>
+                <Form.Control className="password" type="password" placeholder="Password" />
             </Form.Group>
 
             <div className="loginbtncontainer">
 
                 <Button className="loginbtn" variant="primary" type="submit">
-                    Log in
+                    Register
                 </Button>
             </div>
-            <div className="px-5">
-            <p className="notregistered text-sm text-right">
-            Not Registered?
-            <a href="/Register" className="text-sky-400"> Sign up</a>
-            </p>
             
-            </div>
         </Form>
         </div>
 
