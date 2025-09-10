@@ -24,7 +24,7 @@ export default function Login(){
         <div className="logincontainer">
         <Form className="loginform">
 
-            <h1 className="mb-6 text-center text-lg font-semibold">Log in</h1>
+            <h1 className="loginheader">Log in</h1>
 
             <Form.Group className="emailform" controlId="formEmail">
 

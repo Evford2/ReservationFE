@@ -57,4 +57,12 @@
   border-color: rgb(59, 130, 246);
   background-color: rgb(255, 255, 255);
   border-style: solid;
+}
+
+.loginheader {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
 }/*# sourceMappingURL=Login.css.map */
