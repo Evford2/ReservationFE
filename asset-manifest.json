@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReservationFE/static/css/main.6c723424.chunk.css",
+    "main.css": "/ReservationFE/static/css/main.a040d41a.chunk.css",
     "main.js": "/ReservationFE/static/js/main.5991cccc.chunk.js",
     "main.js.map": "/ReservationFE/static/js/main.5991cccc.chunk.js.map",
     "runtime-main.js": "/ReservationFE/static/js/runtime-main.d75f261e.js",
@@ -8,9 +8,9 @@
     "static/js/2.d253bdc9.chunk.js": "/ReservationFE/static/js/2.d253bdc9.chunk.js",
     "static/js/2.d253bdc9.chunk.js.map": "/ReservationFE/static/js/2.d253bdc9.chunk.js.map",
     "index.html": "/ReservationFE/index.html",
-    "precache-manifest.500b78588d5555cd53838b5980ff8a4c.js": "/ReservationFE/precache-manifest.500b78588d5555cd53838b5980ff8a4c.js",
+    "precache-manifest.a751438104cabc8c2c9807f3c9b83ba2.js": "/ReservationFE/precache-manifest.a751438104cabc8c2c9807f3c9b83ba2.js",
     "service-worker.js": "/ReservationFE/service-worker.js",
-    "static/css/main.6c723424.chunk.css.map": "/ReservationFE/static/css/main.6c723424.chunk.css.map",
+    "static/css/main.a040d41a.chunk.css.map": "/ReservationFE/static/css/main.a040d41a.chunk.css.map",
     "static/js/2.d253bdc9.chunk.js.LICENSE.txt": "/ReservationFE/static/js/2.d253bdc9.chunk.js.LICENSE.txt",
     "static/media/cabin1.jpg": "/ReservationFE/static/media/cabin1.296293bb.jpg",
     "static/media/camper1.jpg": "/ReservationFE/static/media/camper1.9e9aee63.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.d75f261e.js",
     "static/js/2.d253bdc9.chunk.js",
-    "static/css/main.6c723424.chunk.css",
+    "static/css/main.a040d41a.chunk.css",
     "static/js/main.5991cccc.chunk.js"
   ]
 }
