@@ -21,12 +21,12 @@ export default function Login(){
     }, [user, pwd])
 
     return(
-        <div className="justify-center flex flex-row items-center min-h-screen bg-sky-200">
+        <div className="logincontainer justify-center flex flex-row items-center min-h-screen bg-sky-200">
         <Form className="pt-5 size-96 rounded-xl bg-white border-2 border-slate-500">
 
             <h1 className="mb-6 text-center text-lg font-semibold">Log in</h1>
 
-            <Form.Group className="mb-3 flex flex-col px-5" controlId="formEmail">
+            <Form.Group className="emailform mb-3 flex flex-col px-5" controlId="formEmail">
 
                 <Form.Label className="mb-3">Email address</Form.Label>
                 <Form.Control className="mb-3 h-7 bg-slate-200 rounded border-1 border-slate-500" type="email" placeholder="Enter email" />
