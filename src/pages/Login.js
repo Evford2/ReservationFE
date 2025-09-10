@@ -38,7 +38,7 @@ export default function Login(){
 
             <div className="loginbtncontainer">
 
-                <Button className="loginbtn " variant="primary" type="submit">
+                <Button className="loginbtn" variant="primary" type="submit">
                     Log in
                 </Button>
             </div>
