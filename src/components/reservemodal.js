@@ -5,7 +5,7 @@ export default function reservemodal(props) {
   const [rmodal, setRModal] = useState(false);
 
   const toggleModal = () => {
-    setModal(!rmodal);
+    setRModal(!rmodal);
   };
 
   if(rmodal) {
@@ -20,7 +20,7 @@ export default function reservemodal(props) {
         Login/Signup
       </button>
 
-      {modal && (
+      {rmodal && (
         <div className="rmodal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
