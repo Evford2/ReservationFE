@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ReservationFE/precache-manifest.e06395529f21e59a4f81e18b2ed4e5d2.js"
+  "/ReservationFE/precache-manifest.3af1c995c9cbf05af7790ff354863a74.js"
 );
 
 self.addEventListener('message', (event) => {
