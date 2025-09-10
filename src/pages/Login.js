@@ -21,24 +21,24 @@ export default function Login(){
     }, [user, pwd])
 
     return(
-        <div className="logincontainer justify-center flex flex-row items-center min-h-screen bg-sky-200">
-        <Form className="pt-5 size-96 rounded-xl bg-white border-2 border-slate-500">
+        <div className="logincontainer">
+        <Form className="loginform">
 
             <h1 className="mb-6 text-center text-lg font-semibold">Log in</h1>
 
-            <Form.Group className="emailform mb-3 flex flex-col px-5" controlId="formEmail">
+            <Form.Group className="emailform" controlId="formEmail">
 
                 <Form.Label className="mb-3">Email address</Form.Label>
-                <Form.Control className="mb-3 h-7 bg-slate-200 rounded border-1 border-slate-500" type="email" placeholder="Enter email" />
+                <Form.Control className="email" type="email" placeholder="Enter email" />
 
                 <Form.Label className="mb-3">Password</Form.Label>
-                <Form.Control className="mb-3 h-7 bg-slate-200 rounded border-1 border-slate-500" type="password" placeholder="Password" />
+                <Form.Control className="password" type="password" placeholder="Password" />
 
             </Form.Group>
 
-            <div className="pt-5 px-5 flex flex-col items-center justify-center">
+            <div className="loginbtncontainer">
 
-                <Button className="mt-2 w-full bg-green-500 rounded border-2 border-green-500 hover:bg-white hover:border-blue-500 hover:border-solid hover:border-2" variant="primary" type="submit">
+                <Button className="loginbtn " variant="primary" type="submit">
                     Log in
                 </Button>
             </div>
