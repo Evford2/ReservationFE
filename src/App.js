@@ -74,6 +74,11 @@ function App() {
               path="/login"
               element={<Login />}
             />
+            <Route
+              exact
+              path="/register"
+              element={<Register />}
+            />
         </Routes>
         
       </div>
