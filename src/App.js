@@ -77,7 +77,7 @@ function App() {
             <Route
               exact
               path="/Register"
-              element={<Login />}
+              element={<Register />}
             />
         </Routes>
         
