@@ -18,6 +18,7 @@ import Modal from './components/Modal.js';
 import Header from './components/Header.js';
 import Reserve from './pages/Reserve.js';
 import Login from './pages/Login.js';
+import Register from './pages/Register.js';
 function App() {
 
   return (
@@ -76,7 +77,7 @@ function App() {
             />
             <Route
               exact
-              path="/Register"
+              path="/register"
               element={<Register />}
             />
         </Routes>
