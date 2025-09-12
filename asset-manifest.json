@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ReservationFE/static/css/main.f5cb7e34.chunk.css",
-    "main.js": "/ReservationFE/static/js/main.fc4ce0ab.chunk.js",
-    "main.js.map": "/ReservationFE/static/js/main.fc4ce0ab.chunk.js.map",
+    "main.css": "/ReservationFE/static/css/main.1ce373eb.chunk.css",
+    "main.js": "/ReservationFE/static/js/main.afdad0fa.chunk.js",
+    "main.js.map": "/ReservationFE/static/js/main.afdad0fa.chunk.js.map",
     "runtime-main.js": "/ReservationFE/static/js/runtime-main.d75f261e.js",
     "runtime-main.js.map": "/ReservationFE/static/js/runtime-main.d75f261e.js.map",
-    "static/js/2.d253bdc9.chunk.js": "/ReservationFE/static/js/2.d253bdc9.chunk.js",
-    "static/js/2.d253bdc9.chunk.js.map": "/ReservationFE/static/js/2.d253bdc9.chunk.js.map",
+    "static/js/2.07341e4a.chunk.js": "/ReservationFE/static/js/2.07341e4a.chunk.js",
+    "static/js/2.07341e4a.chunk.js.map": "/ReservationFE/static/js/2.07341e4a.chunk.js.map",
     "index.html": "/ReservationFE/index.html",
-    "precache-manifest.8b62bdf3c573122763d2db3e9492bd24.js": "/ReservationFE/precache-manifest.8b62bdf3c573122763d2db3e9492bd24.js",
+    "precache-manifest.f12b5d3c4889b923e95d42d27099edae.js": "/ReservationFE/precache-manifest.f12b5d3c4889b923e95d42d27099edae.js",
     "service-worker.js": "/ReservationFE/service-worker.js",
-    "static/css/main.f5cb7e34.chunk.css.map": "/ReservationFE/static/css/main.f5cb7e34.chunk.css.map",
-    "static/js/2.d253bdc9.chunk.js.LICENSE.txt": "/ReservationFE/static/js/2.d253bdc9.chunk.js.LICENSE.txt",
+    "static/css/main.1ce373eb.chunk.css.map": "/ReservationFE/static/css/main.1ce373eb.chunk.css.map",
+    "static/js/2.07341e4a.chunk.js.LICENSE.txt": "/ReservationFE/static/js/2.07341e4a.chunk.js.LICENSE.txt",
     "static/media/cabin1.jpg": "/ReservationFE/static/media/cabin1.296293bb.jpg",
     "static/media/camper1.jpg": "/ReservationFE/static/media/camper1.9e9aee63.jpg",
     "static/media/camping.jpg": "/ReservationFE/static/media/camping.9e878337.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d75f261e.js",
-    "static/js/2.d253bdc9.chunk.js",
-    "static/css/main.f5cb7e34.chunk.css",
-    "static/js/main.fc4ce0ab.chunk.js"
+    "static/js/2.07341e4a.chunk.js",
+    "static/css/main.1ce373eb.chunk.css",
+    "static/js/main.afdad0fa.chunk.js"
   ]
 }
